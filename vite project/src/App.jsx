@@ -1,8 +1,8 @@
 import React from 'react'
 
- const App = () => {
+const App = () => {
   return (
-    <div><h1>hello new dev </h1></div>
+    <div>App</div>
   )
 }
 
