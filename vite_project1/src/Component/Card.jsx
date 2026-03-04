@@ -8,7 +8,7 @@ const JobCard = (props) => {
   return (
     <div className="card">
       <div className="card-header">
-        <img className="logo" src={props.logo}alt="amaazon logo" />
+      <div className="logo">  <img src={props.logo}alt="amaazon logo" /> </div>
         <button className="save-btn">Save <CiBookmarkCheck size={16}/></button>
       </div>
 
