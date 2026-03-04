@@ -41,7 +41,7 @@ const jobs = [
   {
     id: 4,
     company: "Meta",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/0/05/Meta_Platforms_Inc._logo.svg",
+    logo: "https://tse1.mm.bing.net/th/id/OIP.lQ9JvL9Rxhx_s-VKQNEidgHaEK?rs=1&pid=ImgDetMain&o=7&rm=3",
     posted: "3 days ago",
     title: "React Developer",
     type: "Contract",
@@ -141,7 +141,7 @@ const jobs = [
 
   return (
     <div className='parent'>
-
+      
       {jobs.map(function(elem){
         return <JobCard company = {elem.company} post = {elem.posted} logo = {elem.logo} 
          title = {elem.title}  type = {elem.type} salary = {elem.salary} 
